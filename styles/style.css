@@ -1,0 +1,72 @@
+body {
+    background: url(../img/27947992-pale-blue-and-white-diamonds-tiles-pattern-repeat-background.jpg) no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+.task li {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.main__section {
+
+    margin: 20px;
+}
+
+.title__work {
+    padding-top: 20px;
+    text-align: center;
+    background-color: rgba(12, 168, 155, 0.808);
+    padding-bottom: 20px;
+}
+.fixed_container {
+    display: block;
+    margin: 0 auto;
+    width: 1220px;
+    background-color: rgba(48, 199, 186, 0.781);
+}
+
+.work {
+    padding: 20px;
+    margin: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 5px;
+}
+
+.task__block{
+    padding: 10px;
+    text-align: start;
+    border: 2px solid rgb(99, 95, 95);
+}
+
+.task__title {
+    padding-top: 10px;
+    background-color: rgba(12, 168, 155, 0.808);
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.task__target {
+    text-align: start;
+    font-size: 1vw;
+}
+
+.task__ans{
+    white-space: pre;
+
+}
+.section__footer {
+    display: block;
+    margin: 0 auto;
+    width: 1220px;
+    text-align: center;
+    background-color: rgba(12, 168, 155, 0.808);
+}
+.footer_text {
+    font-size: 32px;
+    color: rgb(96, 108, 112);
+}
